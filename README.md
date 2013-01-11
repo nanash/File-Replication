@@ -1,0 +1,4 @@
+File-Replication
+================
+
+This was a school project that I coded two years ago. This was part of Network Programming Project. It required implementing a TCP/IP based file replication system daemon that copied text files to a pre-configured set of remote sites. The amount of data sent had to be optimized (using diff/patch utility). Compression and encryption features were added to make the data transmission optimized and secured. The client daemon was developed to restore the lost/deleted copies from the most updated server daemons. Also, the client daemon was developed to keep all the server daemons in sync by performing consistency checks at regular intervals.  
